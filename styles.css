@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+/* ul,ol{
+    padding: 0;
+} */
+
+
+.lista{
+
+    background-color: darksalmon;
+    font-size: 24px;
+
+}
+
+ul{
+    margin: 30px auto;
+    list-style: none;
+    list-style-image: url(icono.png);
+    list-style-position: inside;
+}
+
+ol{
+   
+    list-style: disc;
+    list-style-position: inside;
+}
+
+
+figure{
+
+    width: 200px;
+    height: 400px;
+    background: crimson;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px rgba(0,0 ,0, 0.8);
+
+}
+
+.img{
+
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+
+}
+
